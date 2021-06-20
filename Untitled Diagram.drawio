@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-06-20T09:30:35.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="O7g0iPT3Njj2eokPkZl8" version="14.8.0" type="github">
-  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-06-20T10:13:38.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="ofN4u-xnmREFxfotpuow" version="14.8.0" type="github" pages="3">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="ER-Diagram">
     <mxGraphModel dx="1776" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
@@ -223,6 +223,25 @@
               <mxPoint x="-280" y="890" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6UNW7ZLNmGDuEEXoVH_p" name="Erwin">
+    <mxGraphModel dx="648" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="NidJyhEFwptc7kDhK5dB-0" />
+        <mxCell id="NidJyhEFwptc7kDhK5dB-1" parent="NidJyhEFwptc7kDhK5dB-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="60kQ78ootDJAhH6MGZcn" name="exERD">
+    <mxGraphModel dx="762" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="NLMBw91-SlC5sMK_7c2P-0" />
+        <mxCell id="NLMBw91-SlC5sMK_7c2P-1" parent="NLMBw91-SlC5sMK_7c2P-0" />
+        <mxCell id="Mnu0tejml61lRAnnPjv1-0" value="1. 회원&#xa;- 아이디&#xa;- 비밀번호&#xa;- 배송지 주소&#xa;- 연락처 &#xa;- 회원구분(일반회원, 판매자회원)&#xa;* 판매품목 0,1,n&#xa;&#xa;&#xa;2. 장바구니&#xa;- &#xa;* 구매테이블과 1:1 매칭&#xa;&#xa;&#xa;3. 구매&#xa;- 사용자 아이디&#xa;- 물품아이디&#xa;- 물품이름&#xa;- 가격&#xa;- 구매날짜&#xa;&#xa;&#xa;&#xa;&#xa;4. 판매 품목&#xa;- 품목 아이디&#xa;- 품목 이름&#xa;- 가격&#xa;- 판매자 아이디&#xa;- 소속 카테고리&#xa;- 대분류 index&#xa;- 중분류 index&#xa;- 소분류 index&#xa;&#xa;&#xa;5. 구매후기" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="NLMBw91-SlC5sMK_7c2P-1">
+          <mxGeometry x="110" y="120" width="200" height="520" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

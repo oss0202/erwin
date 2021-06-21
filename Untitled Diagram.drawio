@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-20T14:39:17.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="JXrQHwmuWf44SWOAeFBH" version="14.8.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-21T12:38:22.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="JyOKqv7fetrpQfjZ4iPk" version="14.7.6" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="ER-Diagram">
-    <mxGraphModel dx="1987" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1966" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,10 +218,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VPDVUuw1R_OnFu-U7lA9-1" value="성별" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="VPDVUuw1R_OnFu-U7lA9-1" value="성별" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-260" y="960" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VPDVUuw1R_OnFu-U7lA9-2" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VPDVUuw1R_OnFu-U7lA9-1">
+        <mxCell id="VPDVUuw1R_OnFu-U7lA9-2" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="VPDVUuw1R_OnFu-U7lA9-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-250" y="940" as="sourcePoint" />
             <mxPoint x="-280" y="880" as="targetPoint" />
@@ -234,22 +234,22 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6UNW7ZLNmGDuEEXoVH_p" name="Erwin">
-    <mxGraphModel dx="936" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="949" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NidJyhEFwptc7kDhK5dB-0" />
         <mxCell id="NidJyhEFwptc7kDhK5dB-1" parent="NidJyhEFwptc7kDhK5dB-0" />
-        <mxCell id="hv-2-NKFpYGOeDi0izoA-0" value="1.부서&#xa;- 부서번호(PK)&#xa;- 프로젝트 번호(FK) 식별&#xa;- 부서명&#xa;- 부서책임자&#xa;* 프로젝트와 0,1,N&#xa;&#xa;&#xa;2. 사원&#xa;- 사원번호(PK)&#xa;- 부서번호(FK) 식별&#xa;- 프로젝트번호(FK) 식별&#xa;- 주민등록번호&#xa;- 이름&#xa;- 주소&#xa;- 성별&#xa;* 부서와 1:1&#xa;* 프로젝트와 0,1,N&#xa;&#xa;&#xa;&#xa;&#xa;3. 프로젝트&#xa;- 프로젝트 번호(PK)&#xa;- 부서번호(FK) 식별&#xa;- 프로젝트 이름&#xa;- 프로젝트 설명" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="NidJyhEFwptc7kDhK5dB-1">
+        <mxCell id="hv-2-NKFpYGOeDi0izoA-0" value="1.부서&lt;br&gt;- 부서번호(PK)&lt;br&gt;- 프로젝트 번호(FK) 식별&lt;br&gt;- 부서명&lt;br&gt;- 부서책임자&lt;br&gt;* 프로젝트와 0,1,N&lt;br&gt;&lt;br&gt;&lt;br&gt;2. 사원&lt;br&gt;- 사원번호(PK)&lt;br&gt;- 부서번호(FK) 식별&lt;br&gt;- 프로젝트번호(FK) 식별&lt;br&gt;- 주민등록번호&lt;br&gt;- 이름&lt;br&gt;- 주소&lt;br&gt;- 성별&lt;br&gt;* 부서와 0,1,N&lt;br&gt;* 프로젝트와 0,1,N&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;3. 프로젝트&lt;br&gt;- 프로젝트 번호(PK)&lt;br&gt;- 부서번호(FK) 식별&lt;br&gt;- 사원_번호(FK) 식별&lt;br&gt;- 프로젝트 이름&lt;br&gt;- 프로젝트 설명" style="text;whiteSpace=wrap;html=1;" parent="NidJyhEFwptc7kDhK5dB-1" vertex="1">
           <mxGeometry x="180" y="200" width="160" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="60kQ78ootDJAhH6MGZcn" name="exERD">
-    <mxGraphModel dx="936" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="869" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NLMBw91-SlC5sMK_7c2P-0" />
         <mxCell id="NLMBw91-SlC5sMK_7c2P-1" parent="NLMBw91-SlC5sMK_7c2P-0" />
-        <mxCell id="M9-GRS9bfsrwgVTNmjSp-0" value="1. 회원&#xa;- 회원번호 PK&#xa;- 아이디&#xa;- 비밀번호&#xa;- 배송지 주소&#xa;- 연락처 &#xa;- 회원구분(일반회원 0001, 판매자회원0002)&#xa;* 판매품목 0,1,n&#xa;* 장바구니 0,1,n&#xa;&#xa;&#xa;2. 장바구니&#xa;- 장바구니 코드(PK)&#xa;- 품목 코드(비식별)&#xa;* 구매와 1&#xa;* 판매품목과 0,1,N&#xa;&#xa;&#xa;3. 구매&#xa;- 주문 번호 (PK)&#xa;- 장바구니 코드(FK 식별)&#xa;- 사용자 아이디&#xa;- 물품아이디&#xa;- 물품이름&#xa;- 가격&#xa;- 구매날짜&#xa;&#xa;&#xa;&#xa;&#xa;4. 판매 품목&#xa;- 품목 코드(PK)&#xa;- 품목 아이디&#xa;- 품목 이름&#xa;- 가격&#xa;- 판매자 아이디&#xa;- 소속 카테고리&#xa;- 대분류 index&#xa;- 중분류 index&#xa;- 소분류 index" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="NLMBw91-SlC5sMK_7c2P-1">
+        <mxCell id="M9-GRS9bfsrwgVTNmjSp-0" value="1. 회원&#xa;- 회원번호 PK&#xa;- 아이디&#xa;- 비밀번호&#xa;- 배송지 주소&#xa;- 연락처 &#xa;- 회원구분(일반회원 0001, 판매자회원0002)&#xa;* 판매품목 0,1,n&#xa;* 장바구니 0,1,n&#xa;&#xa;&#xa;2. 장바구니&#xa;- 장바구니 코드(PK)&#xa;- 품목 코드(비식별)&#xa;* 구매와 1&#xa;* 판매품목과 0,1,N&#xa;&#xa;&#xa;3. 구매&#xa;- 주문 번호 (PK)&#xa;- 장바구니 코드(FK 식별)&#xa;- 사용자 아이디&#xa;- 물품아이디&#xa;- 물품이름&#xa;- 가격&#xa;- 구매날짜&#xa;&#xa;&#xa;&#xa;&#xa;4. 판매 품목&#xa;- 품목 코드(PK)&#xa;- 품목 아이디&#xa;- 품목 이름&#xa;- 가격&#xa;- 판매자 아이디&#xa;- 소속 카테고리&#xa;- 대분류 index&#xa;- 중분류 index&#xa;- 소분류 index" style="text;whiteSpace=wrap;html=1;" parent="NLMBw91-SlC5sMK_7c2P-1" vertex="1">
           <mxGeometry x="140" y="190" width="260" height="580" as="geometry" />
         </mxCell>
       </root>
